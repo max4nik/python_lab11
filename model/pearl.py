@@ -1,4 +1,4 @@
-from model.AbstractSemipreciousStone import AbstractSemiPreciousStone
+from model.abstract_semiprecious_stone import AbstractSemiPreciousStone
 
 
 class Pearl(AbstractSemiPreciousStone):
@@ -9,7 +9,3 @@ class Pearl(AbstractSemiPreciousStone):
                  special_semiprecious_stone_id: str = None):
         super().__init__(color, price_in_usd_dollars, country_of_origin, chemical_formula, weight_in_carats,
                          transparency_from_zero_to_one, special_semiprecious_stone_id)
-
-    # def __repr__(self):
-    #     dic = super().__repr__()
-    #     return str(dic)

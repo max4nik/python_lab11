@@ -1,5 +1,5 @@
-from model.AbstractPreciousStone import AbstractPreciousStone
-from model.ChemicalType import ChemicalType
+from model.abstract_precious_stone import AbstractPreciousStone
+from model.chemical_type import ChemicalType
 
 
 class Diamond(AbstractPreciousStone):
@@ -10,8 +10,3 @@ class Diamond(AbstractPreciousStone):
         super().__init__(color, price_in_usd_dollars, country_of_origin, chemical_formula, weight_in_carats,
                          transparency_from_zero_to_one, special_precious_stone_id)
         self.chemical_type = chemical_type
-
-    # def __repr__(self):
-    #     dic = super().__repr__()
-    #     dic.update({"chemical_type": self.chemical_type})
-    #     return str(dic)
