@@ -1,8 +1,8 @@
 import doctest
 
-from model.Diamond import Diamond
-from model.Necklace import Necklace
-from model.Pearl import Pearl
+from model.diamond import Diamond
+from model.necklace import Necklace
+from model.pearl import Pearl
 
 
 class GemstoneInNecklaceManager:
