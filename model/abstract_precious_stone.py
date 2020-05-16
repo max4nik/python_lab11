@@ -1,4 +1,4 @@
-from model.AbstractGemstone import AbstractGemstone
+from model.abstract_gemstone import AbstractGemstone
 
 
 class AbstractPreciousStone(AbstractGemstone):
@@ -7,8 +7,3 @@ class AbstractPreciousStone(AbstractGemstone):
         super().__init__(color, price_in_usd_dollars, country_of_origin, chemical_formula, weight_in_carats,
                          transparency_from_zero_to_one)
         self.special_precious_stone_id = special_precious_stone_id
-
-    # def __repr__(self):
-    #     dic = super().__repr__()
-    #     dic.update({"special_precious_stone_id": self.special_precious_stone_id})
-    #     return dic

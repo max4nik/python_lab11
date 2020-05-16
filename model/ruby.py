@@ -1,4 +1,4 @@
-from model.AbstractPreciousStone import AbstractPreciousStone
+from model.abstract_precious_stone import AbstractPreciousStone
 
 
 class Ruby(AbstractPreciousStone):
@@ -10,7 +10,3 @@ class Ruby(AbstractPreciousStone):
                          transparency_from_zero_to_one, special_precious_stone_id)
         self.refractive_index = refractive_index
 
-    # def __repr__(self):
-    #     dic = super().__repr__()
-    #     dic.update({"refractive_index": self.refractive_index})
-    #     return str(dic)

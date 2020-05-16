@@ -1,4 +1,4 @@
-from model.AbstractGemstone import AbstractGemstone
+from model.abstract_gemstone import AbstractGemstone
 
 
 class Necklace:
